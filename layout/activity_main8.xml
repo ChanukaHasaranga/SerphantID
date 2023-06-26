@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8">
+
+    <ImageView
+        android:id="@+id/profilepic"
+        android:layout_width="646dp"
+        android:layout_height="378dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/snakebackground" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="20.5dp"
+        android:layout_height="29.5dp"
+        android:background="@drawable/arrow123"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="@+id/profilepic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profilepic"
+        app:layout_constraintVertical_bias="0.060000002"
+        tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="415dp"
+        android:layout_height="61dp"
+        android:background="#345E00"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/profilepic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Indian Cobra"
+        android:textColor="#FAFAFA"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/profilepic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView30" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+
+        android:layout_width="374dp"
+        android:layout_height="329dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profilepic"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/frame"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="149dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/onesname1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="135dp"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/lato"
+                    android:gravity="bottom"
+                    android:text="    Scientific name :"
+                    android:textColor="#345E00"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/onesname"
+                    android:layout_width="203dp"
+                    android:layout_height="134dp"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/lato"
+                    android:gravity="bottom"
+                    android:text="Naja naja"
+                    android:textColor="#345E00"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="95dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/toxic1"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/lato"
+                    android:gravity="center_vertical"
+                    android:text="    Toxic:"
+                    android:textColor="#345E00"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/toxic"
+                    android:layout_width="285dp"
+                    android:layout_height="95dp"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/lato"
+                    android:gravity="center_vertical"
+                    android:text="Deadly venomous"
+                    android:textColor="#345E00"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="326dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/habitat1"
+                    android:layout_width="104dp"
+                    android:layout_height="202dp"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/lato"
+                    android:gravity="center_vertical"
+                    android:text="    Habitat:"
+                    android:textColor="#345E00"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/habitat"
+                    android:layout_width="267dp"
+                    android:layout_height="361dp"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/lato"
+                    android:gravity="center_vertical"
+                    android:text="Found in dense or open
+forests, plains, agricultural lands
+(rice paddy fields, wheat
+crops), rocky terrain, wetlands, and
+it can even be found in heavily
+populated urban areas, such as
+villages and city outskirts, ranging
+from sea level to 2,000 meters
+(6,600 ft) in altitude."
+                    android:textColor="#345E00"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="650dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/idn1"
+                    android:layout_width="123dp"
+                    android:layout_height="624dp"
+                    android:fontFamily="@font/lato"
+                    android:text="    Identification Features:"
+                    android:textAlignment="center"
+                    android:textColor="#345E00"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idn"
+                    android:layout_width="249dp"
+                    android:layout_height="636dp"
+                    android:fontFamily="@font/lato"
+                    android:text="
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Can easily
+    be identified by its relatively large
+    and quite impressive hood,
+    which it expands when threatened.
+    The Indian cobra varies
+    tremendously in colour and pattern
+    throughout its range. The ventral
+    scales or the underside colouration
+    of this species can be grey,
+    yellow, tan, brown, reddish or black.
+    Dorsal scales of the Indian cobra
+    may have a hood mark or
+    colour patterns. The most common
+    visible pattern is a posteriorly
+    convex light band at the level of
+    the 20th to 25th ventral. Salt-and-
+    pepper speckles, especially in adult
+    specimens, are seen on the
+    dorsal scales."
+                    android:textColor="#345E00"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
